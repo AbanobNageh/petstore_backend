@@ -1,0 +1,17 @@
+Setup:
+
+- Install modules using "npm install --save".
+- Change database username and password in config/config.json + change them in the .env file in the root directory.
+
+Manual Testing:
+- Use the next two commands if needed to migrate and seed the database.
+- Use the terminal command 'npx sequelize-cli db:migrate' to migrate to the latest database version from the migration files.
+- Use the terminal command 'npx sequelize-cli db:seed:all' to seed the database with test data.
+- Use the included postman collection file to test the endpoints.
+
+Testing:
+- Use the terminal command 'npm test' to run tests, running the tests will reset the database to default seed state.
+
+Run:
+
+- Use the terminal command 'node server.js' to run the server.

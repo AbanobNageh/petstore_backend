@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "asdqwe123",
+    "database": "pet_store",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "asdqwe123",
+    "database": "pet_store",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "asdqwe123",
+    "database": "pet_store",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
