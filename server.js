@@ -35,7 +35,7 @@ const httpServer = http.createServer(app);
 module.exports = httpServer.listen(HTTP_PORT, async () => {
   try {
     console.log("------------------ HTTP Server ------------------");
-    console.log("We are live on port " + HTTP_PORT);
+    console.log("We are currently live on port " + HTTP_PORT);
   } catch (error) {
     console.log(error);
   }
